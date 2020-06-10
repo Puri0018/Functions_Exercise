@@ -1,4 +1,9 @@
-// This function returns a random number between (and including both) minimum and maximum
+ /*
+ Kunal puri
+ Junae 10 2020
+  */
+ 
+  // This function returns a random number between (and including both) minimum and maximum
 function getRandomInteger (minimum, maximum) {
   minimum = Math.ceil(minimum) // minimum is inclusive
   maximum = Math.floor(maximum + 1) // maximum is exclusive so we add one
